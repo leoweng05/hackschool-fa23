@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Sentence</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div class = "title">
+            <a href="index.html">HackRacer</a> 
+        </div>
+        <div class ="nav-buttons"> 
+            <a href="createSentence.html">Add Sentence</a> 
+            <a href="playGame.html">Play Game</a> 
+        </div>
+    </div>
+    <div class = "create-sentence"> <!--names this section outside of navbar as create sentence-->
+        <div class = "sentence-form"> <!--creates general section to input a sentence-->
+            <h1>Create a Sentence</h1>
+            <div class = "form-row"> <!--creates section for the actual input-->
+                <p><label for ="text">Sentence:</label></p> <!--labels the input-->
+                <textarea id ="sentence-area" name = "sentence" rows = "4" cols = "50" placeholder="Enter sentence..."></textarea> <!--creates input box-->
+            </div>
+            <input id ="sentence-submission" type="submit" value="Submit"></input> <!--input button created-->
+        </div>
+    </div>
+</body>
+</html>

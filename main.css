@@ -1,0 +1,21 @@
+#navbar{
+    background-color: #f9a857;
+    display: flex; /*just a way of format*/
+    justify-content: space-between;
+    align-items: center; /*vertical alignment within the section*/
+    margin-bottom: 35px; /*distance to bottom neighbor*/
+    padding: 25px; /*top and bottom space*/
+
+}
+
+.title a{
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-buttons a {
+    
+}
