@@ -9,4 +9,6 @@
 .image {
     /* Use flexbox to center the image both horizontally and vertically */
     display: flex;
+    justify-content: center;
+    
 }
